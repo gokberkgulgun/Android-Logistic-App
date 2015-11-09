@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00b863"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Calculate Price Between Two City"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.34"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#7c4e4748"/>
+
+    <Spinner
+        android:id="@+id/price1991"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:entries="@array/price"
+        android:prompt="@string/userchoose"
+        android:background="#ffffff"
+        android:lines="3"
+        android:textColor="#00b863"
+        android:layout_weight="0.18" />
+
+    <Spinner
+        android:id="@+id/price1992"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:entries="@array/price2"
+        android:prompt="@string/userchoose"
+        android:background="#ffffff"
+        android:lines="3"
+        android:textColor="#00b863"
+        android:layout_weight="0.16" />
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffffff"
+            android:hint="Weight (KG)"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#00b863"
+            />
+
+
+
+        <!-- Link to Login Screen -->
+
+        <TextView
+            android:id="@+id/totalprice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffffff"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textStyle="bold" />
+
+
+</LinearLayout>

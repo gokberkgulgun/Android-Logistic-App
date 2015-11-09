@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <CheckBox
+        android:id="@+id/chcTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cargo is delivered."
+        android:checked="false" />
+    <CheckBox
+        android:id="@+id/chcTrack1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cargo is delivered to state company."
+        android:checked="false" />
+    <CheckBox
+        android:id="@+id/chcTrack2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cargoship will deliver to customer with priority 1"
+        android:checked="false" />
+
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- Button Create Product -->
+        <Button android:id="@+id/btnSave"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Changes"
+            android:layout_weight="1"/>
+
+        <Button android:id="@+id/btnChat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Chat with User"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+    <Button android:id="@+id/btnTracker"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Send your location" />
+
+</LinearLayout>
